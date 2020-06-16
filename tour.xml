@@ -77,7 +77,7 @@
 		if(startactions !== null, startactions() );
 	</action>
 
-	<layer name="map" y = "13%" url="map.png" keep="true" handcursor="false" capture="false" align="leftbottom" scale="0.3" scale.mobile="0.15" scalechildren="true" />
+	<layer name="map" y = "13%" url="map.png" keep="true" handcursor="false" capture="false" align="leftbottom" scale="0.23" scale.mobile="0.15" scalechildren="true" />
 	<style name="mapspot" keep="true" url="greendot.png" parent="map" align="lefttop" edge="center" scale.mobile="2"/>
 	
 	<layer name="spot1" style="mapspot" x="185" y="280" zorder="1" onclick="loadscene(scene_01, null, MERGE, BLEND(1));"/>
